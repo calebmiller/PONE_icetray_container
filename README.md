@@ -10,9 +10,9 @@ github contains .def file used to create .sif file and icetray enviroment script
 ================================================================
 
 Instructions for use on cedar (may vary cluster to cluster):
-
+```
 $ module load apptainer
 $ apptainer shell ptray.sif
 > ./myenv.sh
-
+```
 this should load the icetray enviroment and allow for ipython-esque testing, dataio-shovel, and analyzes scripts to run
