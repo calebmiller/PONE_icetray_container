@@ -5,14 +5,7 @@
 
 github contains .def file used to create .sif file and icetray enviroment script.
 
-.sif available at: https://www.dropbox.com/scl/fi/h7bhmoqppc33uy7gbm999/ptray.sif?rlkey=u83e8pa0mq6yxxn5nd99pr1dv&dl=0
-
+.sif available at: https://www.dropbox.com/scl/fi/2rugl60pj4xarzn9z071z/ptray_v1.5.sif?rlkey=xvqg8957bwwj1pakr1ag1b1n5&dl=0
 ================================================================
 
-Instructions for use on cedar (may vary cluster to cluster):
-```
-$ module load apptainer
-$ apptainer shell ptray.sif
-> ./myenv.sh
-```
-this should load the icetray enviroment and allow for ipython-esque testing, dataio-shovel, and analyzes scripts to run
+see instructions.txt for current testing
