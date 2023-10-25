@@ -1,0 +1,16 @@
+This is a set of steps to install the in-progress public + extra icetray and test clsim
+
+1. Get the container
+2. get pone_offline for this container
+	a. git clone git@github.com:pone-software/pone_offline.git
+	b. git checkout ptray
+
+3. Launch the container 'apptainer shell -B /etc/OpenCL/ --nv ptray_v1.5/'
+	a. requires OpenCL to be installed
+	b. the --nv flag is nvidia specific, different flag needed for AMD
+4. Navigate to pone_offline
+5. run './myenv.sh'
+6. navigate to Examples/ and run 'mkdir dataio'
+7. run examples 1,1a,2,3
+	a. The first three should run with warnings only
+	b. example 3-EmitPhotons, returns a can't build opencl error for me
